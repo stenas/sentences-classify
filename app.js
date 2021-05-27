@@ -45,6 +45,13 @@ app.get('/', (req, res) => {
 });
 
 app.post('/sentence', (req, res) => {
+    if (!req.body.sentence) {
+        res.status(400).json({
+            error:true,
+            message:'The field [sentence] cannot be empty',
+            data:[]
+        })
+    }
     loadToxicity(req, res, req.body);
 })
 

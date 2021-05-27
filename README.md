@@ -10,7 +10,7 @@ docker-compose build && docker-compose up -d && docker-compose logs -f
 Classify sentence 
 ```
 Method: POST
-Parameter: sentence
+Field: sentence
 URL: http://[HOST]:[PORT]/sentence
 
 ```
