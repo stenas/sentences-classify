@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  sentence-classify-app:
+    build:
+      context: '.'
+      args:
+        uid: 3462346345
+    container_name: sentence-classify-app
+    ports:
+      - 8088:8088

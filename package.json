@@ -1,0 +1,27 @@
+{
+  "name": "sentences-classify",
+  "version": "1.0.0",
+  "description": "Classify sentences",
+  "main": "app.js",
+  "author": "Ricardo Pina",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.6.0",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "@tensorflow/tfjs-node-gpu": "^3.6.1",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stenas/sentences-classify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stenas/sentences-classify/issues"
+  },
+  "homepage": "https://github.com/stenas/sentences-classify#readme"
+}
